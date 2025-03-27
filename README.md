@@ -43,21 +43,21 @@ License name and notaion from declared values at declared positions suffixed wit
 
 #### Without suffixed:
 
-'x' means undecided
-'0' means there exists no terms.
-'1' means there exists set of terms.
-'00' means there exists no terms, conditions; and no attribution
-'01' means there exists no terms, conditions; and attribution
-'10' means there exists set of terms, conditions; but no attribution
-'11' means there exists set of terms, conditions; and attribution
-'000' means there exists no terms, no attribution, no accoutability
-'001' means there exists no terms, no attribution, accoutability
-'010' means there exists no terms, and attribution, and no accountability
-'011' means there exists no terms, and attribution, and accountability
-'100' means there exists set of terms, and no attribution, and no accountability
-'101' means there exists set of terms, and no attribution, and accountability
-'110' means there exists set of terms, and attribution, and no acountability
-'111' means there exists set of terms, and attribution, and acountability
+- 'x' means undecided
+- '0' means there exists no terms.
+- '1' means there exists set of terms.
+- '00' means there exists no terms, conditions; and no attribution
+- '01' means there exists no terms, conditions; and attribution
+- '10' means there exists set of terms, conditions; but no attribution
+- '11' means there exists set of terms, conditions; and attribution
+- '000' means there exists no terms, no attribution, no accoutability
+- '001' means there exists no terms, no attribution, accoutability
+- '010' means there exists no terms, and attribution, and no accountability
+- '011' means there exists no terms, and attribution, and accountability
+- '100' means there exists set of terms, and no attribution, and no accountability
+- '101' means there exists set of terms, and no attribution, and accountability
+- '110' means there exists set of terms, and attribution, and no acountability
+- '111' means there exists set of terms, and attribution, and acountability
 
 #### with Suffixed:
 
