@@ -19,32 +19,29 @@ To minimize and simplify licensing and making new license over and with easy to 
 
 The rule to use for Self License is naming and notational where conditional declaration of value at declared positions(a positional value syntax) with reverse priority order, respecting that determine/derive semantics/meaning of license i.e. terms and conditions.
 
-### Declared positions
+### Declared positions:
 
-Position 0 - Condition(s); can be subconditional
-Position 1 - Attribution(s); can be of an individual, group of individuals, organisation
-Position 2 - Accountability; can allow relicensing and sublicensing.
+- Position 0 - Condition(s); can be subconditional
+- Position 1 - Attribution(s); can be of an individual, group of individuals, organisation
+- Position 2 - Accountability; can allow relicensing and sublicensing.
 
-Condition: 
-a state, situation or factors affecting behaviour of something, here it is used to determine conditions of license. if first value of license is 0 then means no conditions applied i.e. equivalent to no pemission required or no restritions imposed, If first values is 1 then its on the stated set of terms and conditions
+Condition: a state, situation or factors affecting behaviour of something, here it is used to determine conditions of license. if first value of license is 0 then means no conditions applied i.e. equivalent to no pemission required or no restritions imposed, If first values is 1 then its on the stated set of terms and conditions
 
-Attribution: 
-A obligation to linkback or credit to this creator(s), if second value is 0 then no attribution or credit required, if second values is 1 then there must exist attriution and credit to creator.
+Attribution: A obligation to linkback or credit to this creator(s), if second value is 0 then no attribution or credit required, if second values is 1 then there must exist attriution and credit to creator.
 
-Accoutability: 
-A obligation to a set of linkbacks or credit to all creator(s)/contributor; order insensitive, by convention series follow last creator/contributor first/top seperated by '|' or newline, respectively
+Accoutability: A obligation to a set of linkbacks or credit to all creator(s)/contributor; order insensitive, by convention series follow last creator/contributor first/top seperated by '|' or newline, respectively
 
-### Declared Values - 
+### Declared Values:
 
-0: false
-1: true
+0: false;
+1: true;
 x: undefined
 
-### License Name and derived conditions
+### License Name and derived conditions:
 
 License name and notaion from declared values at declared positions suffixed with sl, short for, Self license.
 
-#### Without suffixed
+#### Without suffixed:
 
 'x' means undecided
 '0' means there exists no terms.
@@ -62,13 +59,13 @@ License name and notaion from declared values at declared positions suffixed wit
 '110' means there exists set of terms, and attribution, and no acountability
 '111' means there exists set of terms, and attribution, and acountability
 
-#### with Suffixed
+#### with Suffixed:
 
 - 0sl Zero Self License
 - 1sl One Self License
 
 
-## License Text 
+## License Text:
 
 ### Zero Self License - 0SL
 
