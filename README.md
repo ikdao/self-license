@@ -17,7 +17,7 @@ To minimize and simplify licensing and making new license over and with easy to 
 
 ## Set of Rules:
 
-The rule to use for Self License is naming and notational where conditional declaration of value at declared positions(a positional value syntax) with reverse priority order, respecting that determine/derive semantics/meaning of license i.e. terms and conditions.
+The rule to use Self License is naming and notational where conditional declaration of value at declared positions(a positional value syntax) in reverse/explicit priority, respecting that determine/derive semantics/meaning of license i.e. terms and conditions of license.
 
 ### Declared positions:
 
