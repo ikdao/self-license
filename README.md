@@ -1,98 +1,130 @@
-# Self License
-A minimal, simple self applicable and usable license standard, stack and set. Visit https://legal.ikdao.org/license
+# Self License - README
 
-## Introduction:
+A minimal, simple, self-applicable and self-declarative license standard, stack, and set.  
+**Visit:** [https://legal.ikdao.org/license](https://legal.ikdao.org/license)
 
-As human artifacts have grown, evolved and still growing and evolving to myriads of capabilities and capacities; particularly in digital domain. There ever arise need for license(s) to address the issues that come with these creation like terms, conditions, rights, authorship, ownership, etc. And over time there made quite a mount of licenses which instead of help and keeping it to their simple purpose, turn the whole process more complicated and troubling for creators, engineers, artists, developers to find the right one in left of time for their project or work. We at ikdao were no different. Good to mention India and south asia with highest amount of creators and software engineers it would be of valuable meaning to have its own creative work license standard and stack. These licesnse are not limited to human use.
+---
 
-So we start working and figure out what license and licensing is, its intricacies and working on making a license standard, stack and set, called Self License, it's meant to be minimal and simple to use over any or all creative work including digital artifacts or assets.
+## 📘 Introduction
 
-## Meaning:
+As human artifacts—particularly digital ones—have evolved across countless domains, the need for licenses to address issues like terms, rights, authorship, and ownership has grown significantly. Unfortunately, licensing has become unnecessarily complex, especially for developers, artists, and creators trying to quickly find suitable terms for their work.
 
-Self License are just to self and its determined conditions. It's called self as creators can self attest or attach these licenses in their projects or work. As existence/ reality itself a natural just and neutral of implicit, implicable ownership, authority and changeable, until explicitly made and maintained. Thats why Self, until some self do it, its non existing.
+Self License (SL) was created to simplify and minimize this process. It provides a **bitwise, self-attested** way to declare licensing terms for any creative output—digital or otherwise. It's particularly relevant for creators in India and South Asia, but not limited to them.
 
-## Purpose:
+---
 
-To minimize and simplify licensing and making new license over and with easy to understand and usable semantic syntactic standard similar to semantic versioning that some artists, creators, engineers or developers aware of.
+## ⚙️ Meaning & Philosophy
 
-## Set of Rules:
+A **Self License** is one you attach yourself, based on a simple bitstring that expresses the conditions of use. "Self" refers to self-declaration and self-responsibility. Like nature or reality, there is no ownership or restriction unless explicitly declared.
 
-The rule to use Self License is naming and notational where conditional declaration of value at declared positions(a positional value syntax) in reverse/explicit priority, respecting that determine/derive semantics/meaning of license i.e. terms and conditions of license.
+---
 
-### Declared positions:
+## 🎯 Purpose
 
-- Position 0 - Condition(s); can be subconditional
-- Position 1 - Attribution(s); can be of an individual, group of individuals, organisation
-- Position 2 - Accountability; can allow relicensing and sublicensing.
+To simplify licensing through an easy-to-use and semantically readable standard—similar to Semantic Versioning (semver)—especially familiar to developers and digital creators.
 
-Condition: a state, situation or factors affecting behaviour of something, here it is used to determine conditions of license. if first value of license is 0 then means no conditions applied i.e. equivalent to no pemission required or no restritions imposed, If first values is 1 then its on the stated set of terms and conditions
+---
 
-Attribution: A obligation to linkback or credit to this creator(s), if second value is 0 then no attribution or credit required, if second values is 1 then there must exist attriution and credit to creator.
+## 🔢 Bitwise Structure
 
-Accoutability: A obligation to a set of linkbacks or credit to all creator(s)/contributor; order insensitive, by convention series follow last creator/contributor first/top seperated by '|' or newline, respectively
+Each Self License is based on a **bitstring of up to 6 bits** (positions 0–5), written in order of **increasing specificity**.
 
-### Declared Values:
+- Each bit is either:
+  - `1` (true, exists/enabled)
+  - `0` (false, not present/disabled)
+  - `x` (undefined)
 
-0: false;
-1: true;
-x: undefined
+**Positions:**
 
-### License Name and derived conditions:
+| Bit | Position | Meaning                     |
+|-----|----------|-----------------------------|
+| 0   | Terms & Conditions | If `1`, the license includes explicit terms (custom or predefined). |
+| 1   | Attribution         | If `1`, attribution to the creator is required. |
+| 2   | Accountability      | If `1`, traceable contribution or relicensing must be maintained. |
+| 3   | Source Openness     | If `1`, source is open and inspectable. |
+| 4   | Modifications       | If `1`, modifications are allowed. |
+| 5   | Commercial Use      | If `1`, reselling and commercial use is permitted. |
 
-License name and notaion from declared values at declared positions suffixed with sl, short for, Self license.
+### 🧠 Bitwise Example
 
-#### Without suffixed:
+```
+License Code: 101011
+  Bit 0 (T&C):      1 → Terms exist
+  Bit 1 (Attribution): 0 → No attribution required
+  Bit 2 (Accountability): 1 → Accountability required
+  Bit 3 (Source):      0 → Source is closed
+  Bit 4 (Modification): 1 → Modifications allowed
+  Bit 5 (Commercial):   1 → Commercial use allowed
+```
 
-- 'x' means undecided
-- '0' means there exists no terms.
-- '1' means there exists set of terms.
-- '00' means there exists no terms, conditions; and no attribution
-- '01' means there exists no terms, conditions; and attribution
-- '10' means there exists set of terms, conditions; but no attribution
-- '11' means there exists set of terms, conditions; and attribution
-- '000' means there exists no terms, no attribution, no accoutability
-- '001' means there exists no terms, no attribution, accoutability
-- '010' means there exists no terms, and attribution, and no accountability
-- '011' means there exists no terms, and attribution, and accountability
-- '100' means there exists set of terms, and no attribution, and no accountability
-- '101' means there exists set of terms, and no attribution, and accountability
-- '110' means there exists set of terms, and attribution, and no acountability
-- '111' means there exists set of terms, and attribution, and acountability
+> This results in:  
+> `Self License - 101011SL`  
+> The license reflects custom terms, accountability, permission to modify, and allow commercial use, without attribution or open source.
 
-#### with Suffixed:
+---
 
-- 0sl Zero Self License
-- 1sl One Self License
+## 📄 License Naming Convention
 
+- The license name is derived from the **bitstring** + suffix `SL`:
+  - `0SL`, `1SL`, `10SL`, `111SL`, `101011SL`, etc.
+- The shorter the bitstring, the more general the license.
+- Omitted (undefined) bits are considered unspecified (`x`) and should **not** be interpreted as either true or false.
 
-## License Text:
+---
 
-### Zero Self License - 0SL
+## 🗂️ License Text Examples
 
-Zero Self License - 0SL
-[name of work] - [creator(s) name]
-~[description]
+### 🟢 Zero Self License - `0SL`
 
-I/We hereby declare,
+```
+Self License - 0SL
+Work Name - Creator Name
+A short description
 
+I/We hereby declare:
 No terms and conditions exist or made.
 
-This work as open, free and can be taken as in public domain. And made by, for, of, in common faith. Any or all permissions can be implicitly taken as granted.
+This work is open, free and can be taken as in public domain.
+Made by, for, of, in common faith.
+Any or all permissions can be implicitly taken as granted.
 
-To know more about this license visit https://legal.ikdao.org/license/0sl
+To know more: https://legal.ikdao.org/license/0sl
+```
 
-### One Self License  - 1SL
+### 🔒 One Self License - `1SL`
 
-One Self License  - 1SL
-[name of work] - [creator(s) name]
-~[description]
+```
+Self License - 1SL
+Work Name - Creator Name
+A short description
 
-I/We hereby declare,
-
+I/We hereby declare:
 Terms and conditions exist or made.
-~[set of terms and conditions]
+
+[Optional list of custom terms...]
 
 This work is reserved.
 
-To know more about this license visit https://legal.ikdao.org/license/1sl
+To know more: https://legal.ikdao.org/license/1sl
+```
 
+---
+
+## 🌤️ Declared Values
+
+| Value | Meaning               |
+|-------|------------------------|
+| `0`   | false / not present    |
+| `1`   | true / present         |
+| `x`   | undefined / not stated |
+
+---
+
+## ⚖️ Usage Guidelines
+
+- Use only the bits you need. The **more bits**, the more specific the license.
+- Prior bits **must be declared before** declaring later ones. (e.g., you cannot define position 4 if 0–3 are undefined.)
+- **Custom terms** are only valid if bit 0 is `1`.
+- Use the [`make.sh`](./make.sh) script to generate a license interactively or via CLI.
+
+---
