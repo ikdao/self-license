@@ -1,8 +1,9 @@
 # Self License - README
 
 A minimal, simple, self-applicable and self-declarative license standard, stack, and set.  
-**Visit:** [https://legal.ikdao.org/license](https://legal.ikdao.org/license)
+**Visit:** [https://legal.ikdao.org/license/](https://legal.ikdao.org/license/)
 
+[https://legal.ikdao.org/self-license/](https://legal.ikdao.org/self-license/)
 ---
 
 ## 📘 Introduction
