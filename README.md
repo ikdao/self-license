@@ -42,12 +42,12 @@ Each Self License is based on a **bitstring of up to 6 bits** (positions 0–5),
 
 | Bit | Position | Meaning                     |
 |-----|----------|-----------------------------|
-| 0   | Terms & Conditions | If `1`, the license includes explicit terms (custom or predefined). |
-| 1   | Attribution         | If `1`, attribution to the creator is required. |
-| 2   | Accountability      | If `1`, traceable contribution or relicensing must be maintained. |
-| 3   | Source Openness     | If `1`, source is open and inspectable. |
-| 4   | Modifications       | If `1`, modifications are allowed. |
-| 5   | Commercial Use      | If `1`, reselling and commercial use is permitted. |
+| 0   | Allowing Terms & Conditions | If `1`, the license includes explicit terms (custom or predefined). |
+| 1   | Attribution  | If `1`, attribution to the creator is required. |
+| 2   | Accountability  | If `1`, traceable contribution or relicensing must be maintained. |
+| 3   | Availability of Source Code| If `1`, source is open and inspectable. |
+| 4   | Altering  | If `1`, altering allowed. |
+| 5   | Advertising  | If `1`, reselling and commercial use is permitted. |
 
 ### 🧠 Bitwise Example
 
